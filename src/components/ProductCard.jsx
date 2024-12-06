@@ -2,7 +2,7 @@ const ProductCard = ({ product }) => {
   return (
     <div
       id="prod-box"
-      className="relative border shadow-lg text-center md:w-[230px] lg:w-[210px] h-[300px] p-4 "
+      className="relative border shadow-lg text-center md:w-[230px] lg:w-[210px] w-[230px] h-[280px] p-4 "
     >
       <img
         src={`${product.image}`}

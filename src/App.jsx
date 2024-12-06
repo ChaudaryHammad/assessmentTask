@@ -58,7 +58,7 @@ function App() {
           <CategoryFilter categories={categories} onFilter={filterByCategory} />
         </div>
 
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:gap-x-9 lg:gap-y-6 gap-x-6 gap-y-4 ml-0 lg:ml-5 flex-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:gap-x-9 lg:gap-y-6 gap-x-6 gap-y-4 ml-0 lg:ml-5 flex-1 justify-items-center">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

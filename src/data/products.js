@@ -34,7 +34,7 @@ export const products = [
     price: 1.0,
     originalPrice: 1.2,
     image: image3,
-    onSale: true,
+    bestseller: true,
   },
   {
     id: 4,
@@ -42,7 +42,6 @@ export const products = [
     category: "Berries",
     price: 2.5,
     image: image4,
-    onSale: false,
   },
   {
     id: 5,
@@ -68,7 +67,6 @@ export const products = [
     price: 2.0,
     originalPrice: 2.5,
     image: image7,
-    onSale: true,
   },
   {
     id: 8,
